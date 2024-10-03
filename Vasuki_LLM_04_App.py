@@ -64,7 +64,7 @@ def split_docs(documents, chunk_size=1000, chunk_overlap=20):
      docs = text_splitter.split_documents(documents)
      return docs
 
-@st.cache_resource
+#@st.cache_resource
 
 def startup_event(last_update:str):
      """
