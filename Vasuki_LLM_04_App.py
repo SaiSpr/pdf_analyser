@@ -55,7 +55,7 @@ def load_docs(directory:str):
      documents = loader.load()
      return documents
 
-def split_docs(documents, chunk_size=1000, chunk_overlap=20):
+def split_docs(documents, chunk_size=10000, chunk_overlap=20):
      """
 #     Splits the docs into chunks
     
