@@ -10,6 +10,8 @@ from datetime import datetime
 
 from dotenv import load_dotenv
 
+import nltk
+nltk.download('punkt')
 
 #import chromadb
 import streamlit as st 
